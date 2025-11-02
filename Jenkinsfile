@@ -5,7 +5,7 @@ pipeline {
 
         stage('Clone Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/VAISHALI311/devops-shop-app/blob/main/Jenkinsfile'
+                git branch: 'main', url: 'https://github.com/VAISHALI311/devops-shop-app.git'
             }
         }
 
